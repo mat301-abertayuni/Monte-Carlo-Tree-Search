@@ -178,16 +178,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &282840810
+--- !u!1 &204511753
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 282840814}
-  - component: {fileID: 282840813}
-  - component: {fileID: 282840811}
+  - component: {fileID: 204511756}
+  - component: {fileID: 204511755}
+  - component: {fileID: 204511754}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -195,19 +195,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &282840811
+--- !u!81 &204511754
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 282840810}
+  m_GameObject: {fileID: 204511753}
   m_Enabled: 1
---- !u!20 &282840813
+--- !u!20 &204511755
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 282840810}
+  m_GameObject: {fileID: 204511753}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -238,19 +238,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &282840814
+--- !u!4 &204511756
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0.18503621, y: -0.31680772, z: 0.06316099, w: 0.9281191}
-  m_LocalPosition: {x: 45.15, y: 95.96, z: -84.63}
+  m_GameObject: {fileID: 204511753}
+  m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
+  m_LocalPosition: {x: 40, y: 52, z: -45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 22.550001, y: -37.694, z: 0}
+  m_LocalEulerAnglesHint: {x: 25, y: 0, z: 0}
 --- !u!1 &1023825085
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,3 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f3ced3b5d9f52e40b35c970d7c71ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blackTile: {fileID: 1049251434805298, guid: f63205445597b8e4f83af5461291d6d5, type: 2}
+  whiteTile: {fileID: 1616838688580024, guid: 1a489caabf8c5fc41a8d5e739e0d173a, type: 2}
+  boardWidth: 8
+  boardHeight: 8
